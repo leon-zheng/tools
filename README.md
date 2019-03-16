@@ -26,4 +26,4 @@
 
 - Tip:
 
-  If you have a server using DHCP, you can add 'python sendIP.py' in file '/etc/rc.local'.
+  If you have a server using DHCP, you can add a line 'python sendIP.py' in the file '/etc/rc.local' before 'exit 0' to notify the change of IP address.
